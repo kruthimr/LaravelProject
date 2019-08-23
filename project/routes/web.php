@@ -11,6 +11,6 @@
 |
 */
 
-Route::get("signup","RegsController@index");
+Route::post("signup","RegsController@index");
 Route::get("login","PagesController@login");
 Route::resource('pages','RegsController');
